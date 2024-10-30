@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Cigarettes Électroniques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>VapeStore</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Découvrez notre sélection de cigarettes électroniques</h2>
+        <p>Profitez des meilleures offres et de la plus haute qualité.</p>
+        <a href="#products" class="btn">Voir les produits</a>
+    </section>
+
+    <section id="products" class="products">
+        <h3>Nos Produits</h3>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="images/drag s.jpg" alt="Cigarette électronique modèle 1">
+                <h4>Modèle 1</h4>
+                <p>Prix : 50 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+            <div class="product-item">
+                <img src="images/centarius.webp" alt="Cigarette électronique modèle 2">
+                <h4>Modèle 2</h4>
+                <p>Prix : 70 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+            <div class="product-item">
+                <img src="images/aegis l3.webp" alt="Cigarette électronique modèle 3">
+                <h4>Modèle 3</h4>
+                <p>Prix : 90 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="personal-info" class="personal-info">
+        <h3>Veuillez entrer vos coordonnées personnelles</h3>
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Téléphone :</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="age">Âge (obligatoire) :</label>
+            <input type="number" id="age" name="age" min="18" required>
+
+            <button type="submit" class="btn">Soumettre</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 VapeStore | Tous droits réservés</p>
+        <p><a href="#contact">Contactez-nous</a></p>
+    </footer>
+</body>
+</html>
